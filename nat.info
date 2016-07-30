@@ -1,4 +1,4 @@
-name = lmmi_2015
+name = nat
 description = Please provide a description for your theme.
 base theme = omega
 screenshot = screenshot.png
@@ -8,15 +8,15 @@ core = 7.x
 ; ========================================
 ; Stylesheets
 ; ========================================
-stylesheets[all][] = css/lmmi-2015.normalize.css
-stylesheets[all][] = css/lmmi-2015.hacks.css
-stylesheets[all][] = css/lmmi-2015.styles.css
-stylesheets[all][] = css/lmmi-2015.no-query.css
+stylesheets[all][] = css/nat.normalize.css
+stylesheets[all][] = css/nat.hacks.css
+stylesheets[all][] = css/nat.styles.css
+stylesheets[all][] = css/nat.no-query.css
 
 ; ========================================
 ; Scripts
 ; ========================================
-scripts[] = js/lmmi-2015.behaviors.js
+scripts[] = js/nat.behaviors.js
 scripts[] = js/Dropit/dropit.js
 scripts[] = js/jquery-nice-select/js/jquery.nice-select.js
 
