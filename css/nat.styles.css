@@ -2168,7 +2168,6 @@ ul.sf-menu ul {
 /* line 171, ../sass/components/_navigation.scss */
 #block-superfish-1 .sf-style-none {
   float: left;
-  margin-top: 1em;
   padding: 0; }
   /* line 176, ../sass/components/_navigation.scss */
   #block-superfish-1 .sf-style-none.sf-navbar {
@@ -3558,7 +3557,7 @@ div#footer-wrapper {
   /* line 5, ../sass/components/regions/_header.scss */
   a.site-logo {
     display: inline-block;
-    width: 285px;
+    width: 140px;
     float: left;
     height: auto;
     border-right: 1px solid rgba(255, 255, 255, 0.42);
