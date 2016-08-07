@@ -2048,6 +2048,12 @@ body#imagepicker {
       /* line 99, ../sass/components/_mobile-facets.scss */
       .page-islandora-search .block__title:disabled:hover {
         background-color: #8c2004; } }
+/* line 1, ../sass/components/_nat.scss */
+.field--name-field-musician-image {
+  width: 40%;
+  float: left;
+  margin-right: 1em; }
+
 /* line 6, ../sass/components/_navigation.scss */
 ul.sf-menu ul {
   overflow: visible !important; }
