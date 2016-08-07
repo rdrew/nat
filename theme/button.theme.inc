@@ -10,7 +10,7 @@
  *
  * @ingroup themeable
  */
-function lmmi_2015_button($variables) {
+function nat_button($variables) {
   $element = $variables['element'];
   $element['#attributes']['type'] = 'submit';
   element_set_attributes($element, array('id', 'name', 'value'));
