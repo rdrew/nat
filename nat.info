@@ -8,10 +8,9 @@ core = 7.x
 ; ========================================
 ; Stylesheets
 ; ========================================
-stylesheets[all][] = css/nat.normalize.css
+stylesheets[all][] = css/nat.reset.css
 stylesheets[all][] = css/nat.hacks.css
 stylesheets[all][] = css/nat.styles.css
-stylesheets[all][] = css/nat.no-query.css
 
 ; ========================================
 ; Scripts

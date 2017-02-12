@@ -1,7 +1,1 @@
-{
-"version": 3,
-"mappings": "AACA,iCAAkC;;EAChC,qBAAsB;IACpB,OAAO,EAAE,IAAI;;;EAIb,uCAA8B;IAC5B,WAAW,EAAE,YAAY;IACzB,UAAU,EAAE,YAAY",
-"sources": ["../sass/nat.hacks.scss"],
-"names": [],
-"file": "nat.hacks.css"
-}
+{"version":3,"sources":["nat.hacks.scss"],"names":[],"mappings":"AACA;EACE;IACE,cAAc,EACf;EAGK;IACF,0BAA0B;IAC1B,yBAAyB,EAC1B,EAAA","file":"nat.hacks.css","sourcesContent":["// Hide the toolbar or admin menu on small screens.\n@media all and (max-width: 800px) {\n  #toolbar, #admin-menu {\n    display: none;\n  }\n\n  html {\n    body.toolbar, body.admin-menu {\n      padding-top: 0 !important;\n      margin-top: 0 !important;\n    }\n  }\n}\n"]}
