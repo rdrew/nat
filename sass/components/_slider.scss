@@ -10,6 +10,7 @@ div#flexslider-1 {
 	border: 0;
 }
 
-.slider img {
-	border: 2px solid #ccc;
+.flexslider img {
+	border: $base-border;
+  padding: 4px;
 }

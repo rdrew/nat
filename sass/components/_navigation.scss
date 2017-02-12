@@ -42,7 +42,7 @@ ul.sf-menu ul {
 
 	background-color: $navigation-background;
 	border-bottom: 1px solid darken($navigation-background, 10);
-	min-height: $navigation-height;
+	/*min-height: $navigation-height;*/
 	width: 100%;
 
 	/*z-index: 999;*/
@@ -133,7 +133,7 @@ ul.sf-menu ul {
 	display: block;
 }
 
-@include breakpoint(940px) {
+@include breakpoint(800px) {
 	.l-region--navigation {
 		display: block;
 	}
@@ -506,19 +506,19 @@ $superfish-1-background-color-level-fourth: #333;
 }
 
 #block-superfish-1 .sf-depth-1 > a {
-	padding-bottom: 21px;
+	/*padding-bottom: 21px;*/
 
-	&.menuparent:after {
-		/*float: right;*/
-		margin-left: 4px;
-		content: "\f103";
-		display: inline-block;
-		font: normal normal normal 14px/1 FontAwesome;
-		font-size: inherit;
-		text-rendering: auto;
-		-webkit-font-smoothing: antialiased;
-		-moz-osx-font-smoothing: grayscale;
-	}
+	/*&.menuparent:after {*/
+		/*[>float: right;<]*/
+		/*margin-left: 4px;*/
+		/*content: "\f103";*/
+		/*display: inline-block;*/
+		/*font: normal normal normal 14px/1 FontAwesome;*/
+		/*font-size: inherit;*/
+		/*text-rendering: auto;*/
+		/*-webkit-font-smoothing: antialiased;*/
+		/*-moz-osx-font-smoothing: grayscale;*/
+	/*}*/
 }
 
 #block-superfish-1 .sf-depth-1.sfHover > a {
@@ -533,7 +533,7 @@ $superfish-1-background-color-level-fourth: #333;
 .main-nav--desktop {
 	display: none;
 
-	@include breakpoint(940px) {
+	@include breakpoint(800px) {
 		display: block;
 	}
 }
@@ -542,7 +542,7 @@ $superfish-1-background-color-level-fourth: #333;
 	clear: both;
 	display: block;
 
-	@include breakpoint(940px) {
+	@include breakpoint(800px) {
 		display: none;
 	}
 }
